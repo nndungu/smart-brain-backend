@@ -119,9 +119,6 @@
   "repository": "git@github.com:nndungu/smart-brain-backend.git",
   "author": "n3ll <nndungu7@gmail.com>",
   "license": "MIT",
-  "devDependencies": {
-    "nodemon": "^2.0.15"
-  },
   "scripts": {
     "start": "nodemon server.js"
   }
