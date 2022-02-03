@@ -26,7 +26,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // create a router file that takes all these definitions.
-app.get('/', (_req, res)=> { res.send(db.users) })
+app.get('/', (_req, res)=> { res.send('it is working') })
 
 app.post('/signin', (req, res) => { signin.handleSignin(req, res, db, bcrypt)})
 app.post('/register', (req, res) => {register.handleRegister(req, res, db, bcrypt)})
@@ -35,12 +35,6 @@ app.put('/image', (req, res) => { image.handleImage(req, res, db)})
 app.post('/imageurl', (req, res) => { image.handleApiCall(req, res)})
 
 
-<<<<<<< HEAD
 app.listen(process.env.PORT || 3600, () => {
     console.log(`app is running on port ${process.env.PORT}`);
 })
-=======
-app.listen(3600, () => {
-    console.log('app is running on port 3600');
-})
->>>>>>> b3ee44c8e909542e28d2cf8ddccc5064bd40b7e6
