@@ -9,7 +9,7 @@
     "bcrypt": "^5.0.1",
     "bcrypt-nodejs": "0.0.3",
     "binary-extensions": "^2.2.0",
-    "body-parser": "^1.19.1",
+    "body-parser": "^1.20.3",
     "boxen": "^5.1.2",
     "brace-expansion": "^1.1.11",
     "braces": "^3.0.2",
