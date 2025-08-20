@@ -79,7 +79,7 @@
     "once": "^1.4.0",
     "p-cancelable": "^1.1.0",
     "package-json": "^6.5.0",
-    "pg": "^8.7.1",
+    "pg": "^8.16.3",
     "picomatch": "^2.3.1",
     "prepend-http": "^2.0.0",
     "pstree.remy": "^1.1.8",
